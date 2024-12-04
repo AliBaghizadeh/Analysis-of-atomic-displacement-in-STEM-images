@@ -1,0 +1,26 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Results and outputs
+results/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace

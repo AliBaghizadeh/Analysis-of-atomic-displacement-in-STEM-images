@@ -1,0 +1,11 @@
+hyperspy
+atomap
+topotem
+scipy
+numpy
+matplotlib
+pandas
+opencv-python
+scikit-learn
+joblib
+pytest
