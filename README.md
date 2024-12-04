@@ -47,29 +47,29 @@ pip install -r requirements.txt
 ## Repository Structure
 ```
 AtomLatticeAnalysis/
-├── images/                      # Raw image files
-├── results/                     # Processed results (e.g., plots, data)
-├── src/                         # Source code
-│   ├── __init__.py              # Makes src a package
-│   ├── image_handler.py         # ImageHandler class
-│   ├── image_processor.py       # ImageProcessor class
-│   ├── atom_lattice_analyzer.py # AtomLatticeAnalyzer class
-│   ├── displacement_analyzer.py # DisplacementAnalyzer class
-│   ├── clustering.py            # ClusterAnalyzer and related functions
-├── tests/                       # Unit tests
+├── images/                          # Raw image files
+├── results/                         # Processed results (e.g., plots, data)
+├── src/                             # Source code
+│   ├── __init__.py                  # Makes src a package
+│   ├── image_handler.py             # ImageHandler class
+│   ├── image_processor.py           # ImageProcessor class
+│   ├── atom_lattice_analyzer.py     # AtomLatticeAnalyzer class
+│   ├── displacement_analyzer.py     # DisplacementAnalyzer class
+│   ├── clustering.py                # ClusterAnalyzer and related functions
+├── tests/                           # Unit tests
 │   ├── __init__.py
 │   ├── test_image_handler.py
 │   ├── test_image_processor.py
 │   ├── test_atom_lattice_analyzer.py
 │   ├── test_displacement_analyzer.py
 │   ├── test_clustering.py
-├── notebooks/                   # Jupyter notebooks for demonstrations
-│   ├── analysis_demo.ipynb      # Interactive guide
-├── requirements.txt             # Python dependencies
-├── setup.py                     # For packaging the project
-├── README.md                    # Project overview
-├── LICENSE                      # License file
-└── .gitignore                   # Ignored files and folders
+├── notebooks/                       # Jupyter notebooks for demonstrations
+│   ├── analysis_demo.ipynb          # Interactive guide
+├── requirements.txt                 # Python dependencies
+├── setup.py                         # For packaging the project
+├── README.md                        # Project overview
+├── LICENSE                          # License file
+└── .gitignore                       # Ignored files and folders
 ```
 ## Running the Jupyter Notebook
 The Jupyter notebook analysis_demo.ipynb demonstrates all major functionalities. You can use it as a reference to apply the tools to your own data.
