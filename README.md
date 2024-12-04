@@ -56,13 +56,6 @@ AtomLatticeAnalysis/
 │   ├── atom_lattice_analyzer.py     # AtomLatticeAnalyzer class
 │   ├── displacement_analyzer.py     # DisplacementAnalyzer class
 │   ├── clustering.py                # ClusterAnalyzer and related functions
-├── tests/                           # Unit tests
-│   ├── __init__.py
-│   ├── test_image_handler.py
-│   ├── test_image_processor.py
-│   ├── test_atom_lattice_analyzer.py
-│   ├── test_displacement_analyzer.py
-│   ├── test_clustering.py
 ├── notebooks/                       # Jupyter notebooks for demonstrations
 │   ├── analysis_demo.ipynb          # Interactive guide
 ├── requirements.txt                 # Python dependencies
