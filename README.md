@@ -40,9 +40,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1- Place your raw images in the images/ directory.
-2- Use the provided Python scripts or the Jupyter notebook to perform the analysis.
-3- Processed results will be saved in the results/ directory.
+1. Place your raw images in the `images/` directory.
+2. Use the provided Python scripts or the Jupyter notebook to perform the analysis.
+3. Processed results will be saved in the `results/` directory.
 
 
 
