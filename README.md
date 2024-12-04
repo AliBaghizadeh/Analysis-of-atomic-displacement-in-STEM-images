@@ -3,8 +3,8 @@
 # Atom Lattice Analysis Project
 
 ## Overview
-My story with this project started when one of my clients asked me to provide a detailed atomic-scale analysis of the displacement of Ti ions in BaTiO3 thin films. Among the different methods to accomplish this fine analysis, I considered **HyperSpy**, **atomap** and **TopoTEM**, which are very handy and also useful for different purposes, like synthetic microscopy image generation, as you can find in my different repositories.  
-What I am presenting in this project is merely my experience with specific samples I was dealing with and of course, the microscope I was using. The best approach is to start with the best image and find some initial parameters which provide the best match for atoms to eventually calculate the displacement of the Ti ions or other atoms in the lattice. <br><br>
+My story with this project started when one of my clients asked me to provide a detailed atomic-scale analysis of the displacement of Ti ions in BaTiO3 thin films. Among the different methods to accomplish this fine analysis, I considered **HyperSpy**, **atomap**, and **TopoTEM**, which are very handy and also useful for different purposes, like synthetic microscopy image generation, as you can find in my different repositories.  
+What I am presenting in this project is merely my experience with specific samples I was dealing with and of course, the microscope I was using. The best approach is to start with the best image and find some initial parameters that provide the best match for atoms to eventually calculate the displacement of the Ti ions or other atoms in the lattice. <br><br>
 
 This project provides tools for analyzing atom lattice structures in materials using advanced image processing and data science techniques. It supports:
 - Loading and preprocessing images of atom lattices.
@@ -47,29 +47,29 @@ pip install -r requirements.txt
 ## Repository Structure
 ```
 AtomLatticeAnalysis/
-├── images/                  # Raw image files
-├── results/                 # Processed results (e.g., plots, data)
-├── src/                     # Source code
-│   ├── __init__.py          # Makes src a package
-│   ├── image_handler.py     # ImageHandler class
-│   ├── image_processor.py   # ImageProcessor class
+├── images/                      # Raw image files
+├── results/                     # Processed results (e.g., plots, data)
+├── src/                         # Source code
+│   ├── __init__.py              # Makes src a package
+│   ├── image_handler.py         # ImageHandler class
+│   ├── image_processor.py       # ImageProcessor class
 │   ├── atom_lattice_analyzer.py # AtomLatticeAnalyzer class
 │   ├── displacement_analyzer.py # DisplacementAnalyzer class
-│   ├── clustering.py        # ClusterAnalyzer and related functions
-├── tests/                   # Unit tests
+│   ├── clustering.py            # ClusterAnalyzer and related functions
+├── tests/                       # Unit tests
 │   ├── __init__.py
 │   ├── test_image_handler.py
 │   ├── test_image_processor.py
 │   ├── test_atom_lattice_analyzer.py
 │   ├── test_displacement_analyzer.py
 │   ├── test_clustering.py
-├── notebooks/               # Jupyter notebooks for demonstrations
-│   ├── analysis_demo.ipynb  # Interactive guide
-├── requirements.txt         # Python dependencies
-├── setup.py                 # For packaging the project
-├── README.md                # Project overview
-├── LICENSE                  # License file
-└── .gitignore               # Ignored files and folders
+├── notebooks/                   # Jupyter notebooks for demonstrations
+│   ├── analysis_demo.ipynb      # Interactive guide
+├── requirements.txt             # Python dependencies
+├── setup.py                     # For packaging the project
+├── README.md                    # Project overview
+├── LICENSE                      # License file
+└── .gitignore                   # Ignored files and folders
 ```
 ## Running the Jupyter Notebook
 The Jupyter notebook analysis_demo.ipynb demonstrates all major functionalities. You can use it as a reference to apply the tools to your own data.
