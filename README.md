@@ -31,7 +31,7 @@ The project is modular, with functionality organized into distinct Python classe
 ### Clone the Repository
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+cd Analysis-of-atomic-displacement-in-STEM-images
 ```
 ### Install Dependencies
 Install all required Python libraries using pip:
@@ -43,6 +43,52 @@ pip install -r requirements.txt
 1. Place your raw images in the `images/` directory.
 2. Use the provided Python scripts or the Jupyter notebook to perform the analysis.
 3. Processed results will be saved in the `results/` directory.
+
+## Repository Structure
+```
+AtomLatticeAnalysis/
+├── images/                  # Raw image files
+├── results/                 # Processed results (e.g., plots, data)
+├── src/                     # Source code
+│   ├── __init__.py          # Makes src a package
+│   ├── image_handler.py     # ImageHandler class
+│   ├── image_processor.py   # ImageProcessor class
+│   ├── atom_lattice_analyzer.py # AtomLatticeAnalyzer class
+│   ├── displacement_analyzer.py # DisplacementAnalyzer class
+│   ├── clustering.py        # ClusterAnalyzer and related functions
+├── tests/                   # Unit tests
+│   ├── __init__.py
+│   ├── test_image_handler.py
+│   ├── test_image_processor.py
+│   ├── test_atom_lattice_analyzer.py
+│   ├── test_displacement_analyzer.py
+│   ├── test_clustering.py
+├── notebooks/               # Jupyter notebooks for demonstrations
+│   ├── analysis_demo.ipynb  # Interactive guide
+├── requirements.txt         # Python dependencies
+├── setup.py                 # For packaging the project
+├── README.md                # Project overview
+├── LICENSE                  # License file
+└── .gitignore               # Ignored files and folders
+```
+## Running the Jupyter Notebook
+The Jupyter notebook analysis_demo.ipynb demonstrates all major functionalities. You can use it as a reference to apply the tools to your own data.
+
+To run the notebook:
+1. Install Jupyter:
+```bash
+pip install notebook
+```
+2. Start the Jupyter server:
+```bash
+jupyter notebook
+```
+3. Open the notebooks/analysis_demo.ipynb file and follow the step-by-step guide.
+
+## License
+This project is licensed under the MIT License.
+
+
 
 
 
