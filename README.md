@@ -32,14 +32,17 @@ The project is modular, with functionality organized into distinct Python classe
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
-
+```
 ### Install Dependencies
 Install all required Python libraries using pip:
 ```bash
 pip install -r requirements.txt
+```
 
-
-
+## Usage
+1- Place your raw images in the images/ directory.
+2- Use the provided Python scripts or the Jupyter notebook to perform the analysis.
+3- Processed results will be saved in the results/ directory.
 
 
 
