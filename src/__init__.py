@@ -1,7 +1,5 @@
-src/
-├── __init__.py
-├── image_handler.py
-├── image_processor.py
-├── atom_lattice_analyzer.py
-├── displacement_analyzer.py
-├── clustering.py
+from .image_handler import ImageHandler
+from .image_processor import ImageProcessor
+from .atom_lattice_analyzer import AtomLatticeAnalyzer
+from .displacement_analyzer import DisplacementAnalyzer
+from .clustering import ClusterAnalyzer
