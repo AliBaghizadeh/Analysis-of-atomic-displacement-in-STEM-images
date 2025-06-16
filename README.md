@@ -3,8 +3,16 @@
 # Atom Lattice Analysis Project
 
 ## Overview
-My story with this project started when one of my clients asked me to provide a detailed atomic-scale analysis of the displacement of Ti ions in BaTiO3 thin films. Among the different methods to accomplish this fine analysis, I considered **HyperSpy**, **atomap**, and **TopoTEM**, which are very handy and also useful for different purposes, like synthetic microscopy image generation, as you can find in my different repositories.  
-What I am presenting in this project is merely my experience with specific samples I was dealing with and of course, the microscope I was using. The best approach is to start with the best image and find some initial parameters that provide the best match for atoms to eventually calculate the displacement of the Ti ions or other atoms in the lattice. <br><br>
+
+My story with this project started when one of my clients asked me to provide a detailed atomic-scale analysis of the displacement of Ti ions in BaTiO₃ thin films. To tackle this challenge, I evaluated multiple open-source microscopy toolkits—including HyperSpy, Atomap, and TopoTEM—which are also featured in other repositories of mine focused on synthetic STEM image generation and lattice analysis.
+
+What I am presenting here is the result of hands-on work with real materials and real microscopes, focused on a practical need: extracting quantitative atomic displacement fields from high-resolution STEM images. The process begins by selecting the best-quality images and fine-tuning parameters for lattice detection and fitting. From there, the goal is to accurately calculate local shifts of Ti ions or other atomic species in the lattice—information that directly relates to strain, defect structures, and functional behavior in oxide materials.
+
+This project showcases a progressive workflow that starts with open-source scientific image analysis libraries widely used in the microscopy and materials research community, such as **HyperSpy**, **atomap**, and **TopoTEM**, to perform lattice fitting, atom position detection, and sublattice decomposition from atomic-resolution STEM images. These foundational steps are essential for converting raw images into structured data that can be quantitatively analyzed.
+
+Once the atom positions and displacement vectors are extracted, the project transitions into the data science domain. Using scikit-learn, it applies Principal Component Analysis (PCA) for dimensionality reduction and clustering algorithms (like KMeans and DBSCAN) to reveal hidden patterns in atomic shifts—such as domain boundaries, strain distributions, or correlated defect behavior. This allows users not only to visualize displacement fields but also to segment and interpret nanostructural variations quantitatively.
+
+By combining materials-specific expertise with reproducible, scriptable Python workflows, this project bridges the gap between traditional microscopy analysis and modern data-driven materials research. It is particularly valuable for researchers aiming to scale up atomic-scale studies, automate workflows, or integrate machine learning into defect and strain analysis pipelines.<br><br>
 
 This project provides tools for analyzing atom lattice structures in materials using advanced image processing and data science techniques. It supports:
 - Loading and preprocessing images of atom lattices.
